@@ -1,0 +1,31 @@
+{
+  "name": "grasswind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bayazuma",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./ --out-dir docs"
+  },
+  "devDependencies": {
+    "@types/three": "^0.135.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2",
+    "lil-gui": "^0.15.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "gsap": "^3.8.0",
+    "three": "^0.135.0"
+  }
+}
